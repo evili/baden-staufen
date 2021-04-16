@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan rocrailversion="2.1.1527" rocrailpwd="/rocrail" rocrailos="linux" rocrailarch="X86_64" rocrailip="10.0.2.100" donkey="false" healthy="true" title="New Plan" remark="">
+  <zlevel title="Level 0"/>
+  <boosterlist/>
+  <lightctrl converted="true"/>
+  <competition/>
+  <tklist>
+    <tk type="buffer" id="tk1" x="11" y="10" z="0"/>
+    <tk type="buffer" ori="west" id="tk2" x="11" y="9" z="0"/>
+    <tk type="buffer" ori="west" id="tk3" x="11" y="8" z="0"/>
+    <tk type="straight" id="tk4" x="10" y="8" z="0"/>
+    <tk type="straight" ori="east" id="tk5" x="9" y="8" z="0"/>
+    <tk type="straight" ori="east" id="tk6" x="9" y="9" z="0"/>
+    <tk type="straight" ori="east" id="tk7" x="9" y="10" z="0"/>
+    <tk type="curve" id="tk8" x="8" y="8" z="0" ori="north"/>
+    <tk type="straight" id="tk9" x="8" y="10" z="0"/>
+    <tk type="curve" id="tk10" x="7" y="9" z="0" ori="north"/>
+  </tklist>
+  <swlist>
+    <sw type="left" id="sw1" x="10" y="9" z="0" testing="false" switched="0"/>
+    <sw type="left" id="sw2" x="10" y="10" z="0" testing="false" switched="0" porttype="0" frogporttype="0" ori="east">
+      <accessoryctrl/>
+    </sw>
+    <sw type="left" id="sw4" x="8" y="9" z="0" testing="false" switched="0" ori="east"/>
+    <sw type="left" id="sw5" x="7" y="10" z="0" testing="false" switched="0" ori="east"/>
+  </swlist>
+</plan>

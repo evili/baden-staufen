@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rocrail>
+  <ctrl/>
+  <trace byte="false" parse="false" meminfo="false"/>
+  <digint lib="virtual" iid="vcs-1" stress="false" guid="00000000000020210416114218386000" libpath="/opt/rocrail/bin"/>
+  <clock state="go" hour="11" minute="43"/>
+  <tcp/>
+</rocrail>

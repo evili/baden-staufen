@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan rocrailversion="2.1.1539" rocrailpwd="/rocrail" rocrailos="linux" rocrailarch="X86_64" rocrailip="10.0.2.100" donkey="false" healthy="true" title="New Plan" remark="">
+  <zlevel title="Level 0"/>
+  <boosterlist/>
+  <lightctrl converted="true"/>
+  <competition/>
+  <tklist>
+    <tk type="buffer" id="tk1" x="34" y="8" z="0"/>
+    <tk type="buffer" id="tk2" x="34" y="7" z="0"/>
+    <tk type="straight" id="tk3" x="29" y="7" z="0"/>
+    <tk type="straight" id="tk4" x="28" y="7" z="0"/>
+    <tk type="straight" id="tk5" x="27" y="7" z="0"/>
+    <tk type="curve" id="tk6" x="25" y="7" z="0" ori="north"/>
+    <tk type="straight" id="tk7" x="31" y="6" z="0"/>
+    <tk type="curve" id="tk8" x="26" y="6" z="0" ori="north"/>
+    <tk type="straight" id="tk9" x="28" y="6" z="0"/>
+    <tk type="buffer" id="tk10" x="34" y="6" z="0"/>
+    <tk type="straight" id="tk11" x="14" y="8" z="0"/>
+    <tk type="curve" id="tk12" x="13" y="7" z="0" ori="north"/>
+    <tk type="curve" ori="north" id="tk13" x="14" y="6" z="0"/>
+    <tk type="curve" id="tk14" x="14" y="7" z="0" ori="south"/>
+    <tk type="straight" id="tk16" x="24" y="8" z="0"/>
+    <tk type="straight" id="tk17" x="23" y="8" z="0"/>
+    <tk type="straight" id="tk18" x="22" y="8" z="0"/>
+    <tk type="straight" id="tk19" x="21" y="8" z="0"/>
+    <tk type="straight" id="tk20" x="20" y="8" z="0"/>
+    <tk type="straight" id="tk21" x="19" y="8" z="0"/>
+    <tk type="straight" id="tk22" x="18" y="8" z="0"/>
+    <tk type="straight" id="tk23" x="17" y="8" z="0"/>
+    <tk type="straight" id="tk24" x="16" y="8" z="0"/>
+    <tk type="straight" id="tk25" x="15" y="8" z="0"/>
+  </tklist>
+  <swlist>
+    <sw type="right" id="sw1" x="30" y="8" z="0" testing="false" switched="0" ori="east"/>
+    <sw type="right" id="sw2" x="30" y="7" z="0" testing="false" switched="0"/>
+    <sw type="left" id="sw3" x="13" y="8" z="0" testing="false" switched="0" ori="east"/>
+    <sw type="left" id="sw4" x="27" y="6" z="0" testing="false" switched="0" ori="east"/>
+    <sw type="left" id="sw5" x="26" y="7" z="0" testing="false" switched="0" ori="east"/>
+    <sw type="left" id="sw6" x="29" y="6" z="0" testing="false" switched="0" ori="east"/>
+    <sw type="left" id="sw7" x="25" y="8" z="0" testing="false" switched="0" ori="east"/>
+    <sw type="left" id="sw8" x="12" y="8" z="0" testing="false" switched="0" ori="east"/>
+  </swlist>
+  <sblist>
+    <sb smallsymbol="true" id="sb1" x="32" y="8" z="0" entering="false" allowchgdir="false" reserved="false" state="open"/>
+    <sb smallsymbol="true" id="sb2" x="32" y="7" z="0" entering="false" allowchgdir="false" reserved="false" state="open"/>
+    <sb smallsymbol="true" id="sb3" x="32" y="6" z="0" entering="false" allowchgdir="false"/>
+  </sblist>
+  <fblist>
+    <fb id="fb1" x="31" y="8" z="0" state="false" identifier="" gpssid="0" shortcut="false" counter="0" wheelcount="0" carcount="0" countedcars="0" bididir="0" val="0" load="0" regval="0" maxload="0" baseaddr="0"/>
+    <fb id="fb2" x="31" y="7" z="0" state="false" identifier="" gpssid="0" shortcut="false" counter="0" wheelcount="0" carcount="0" countedcars="0" bididir="0" val="0" load="0" regval="0" maxload="0" baseaddr="0"/>
+    <fb id="fb3" x="29" y="8" z="0" state="false" identifier="" gpssid="0"/>
+    <fb id="fb4" x="26" y="8" z="0" state="false" identifier="" gpssid="0"/>
+    <fb id="fb5" x="30" y="6" z="0" state="false" identifier="" gpssid="0" shortcut="false" counter="0" wheelcount="0" carcount="0" countedcars="0" bididir="0" val="0" load="0" regval="0" maxload="0" baseaddr="0"/>
+    <fb id="fb6" x="15" y="6" z="0" state="false" identifier="" gpssid="0" shortcut="false" counter="0" wheelcount="0" carcount="0" countedcars="0" bididir="0" val="0" load="0" regval="0" maxload="0" ori="west" baseaddr="0"/>
+    <fb ori="west" id="fb7" x="21" y="6" z="0" state="false" identifier="" gpssid="0" shortcut="false" counter="0" wheelcount="0" carcount="0" countedcars="0" bididir="0" val="0" load="0" regval="0" maxload="0" baseaddr="0"/>
+    <fb ori="west" id="fb8" x="16" y="6" z="0" state="false" identifier="" gpssid="0" shortcut="false" counter="0" wheelcount="0" carcount="0" countedcars="0" bididir="0" val="0" load="0" regval="0" maxload="0" baseaddr="0"/>
+  </fblist>
+  <bklist>
+    <bk smallsymbol="true" id="bk1" x="27" y="8" z="0" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open"/>
+    <bk id="bk2" x="17" y="6" z="0" entering="false" updateenterside="false" managerid="" shunting="false" fifoids="" embeddedfbplus="false" embeddedfbmin="false" locid="" state="open"/>
+  </bklist>
+</plan>
